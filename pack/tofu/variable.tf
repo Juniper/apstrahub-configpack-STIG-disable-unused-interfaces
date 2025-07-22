@@ -4,5 +4,14 @@
 
 variable "name" {
   type = string
-  default = "LACP force up"
+  default = "Disable Unused Interfaces"
+}
+
+variable "blueprint_id" {
+  type = string
+}
+
+variable "unused_interface_vlan" {
+  type = number
+  description = "VLAN to assign to unused interfaces"
 }

@@ -1,5 +1,3 @@
-# example
+# STIG-disable-unused-interfaces
 
-This pack is primarily a template intended to help pack publishers put together their own packs and pack release workflows.
-
-It a simple example which creates a single _configlet_ in the Apstra global catalog.
+This pack deploys a configlet which puts unused interfaces into a dedicaetd VLAN and disables them.
